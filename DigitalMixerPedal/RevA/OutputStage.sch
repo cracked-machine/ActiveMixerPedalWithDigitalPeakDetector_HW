@@ -1,0 +1,183 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 17
+Title ""
+Date ""
+Rev "A"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	2125 5725 2125 5775
+Wire Wire Line
+	2125 6425 2125 6475
+Wire Wire Line
+	8975 2650 6175 2650
+Wire Wire Line
+	5050 2750 4775 2750
+Wire Wire Line
+	4775 2750 4775 3025
+$Comp
+L Device:R R?
+U 1 1 5F455319
+P 5250 3675
+AR Path="/5F455319" Ref="R?"  Part="1" 
+AR Path="/5F44DB1C/5F455319" Ref="R30"  Part="1" 
+F 0 "R30" V 5043 3675 50  0000 C CNN
+F 1 "10K" V 5134 3675 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5180 3675 50  0001 C CNN
+F 3 "~" H 5250 3675 50  0001 C CNN
+	1    5250 3675
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	5400 3675 6175 3675
+Wire Wire Line
+	6175 3675 6175 2650
+Connection ~ 6175 2650
+Wire Wire Line
+	6175 2650 5650 2650
+Wire Wire Line
+	5100 3675 4175 3675
+Wire Wire Line
+	4175 2650 2100 2650
+Wire Wire Line
+	5050 2550 4175 2550
+Wire Wire Line
+	4175 2550 4175 2650
+Text HLabel 2100 2650 0    50   Input ~ 0
+SIGNAL_INPUT
+Text HLabel 8975 2650 2    50   Input ~ 0
+SIGNAL_OUTPUT
+$Comp
+L Amplifier_Operational:TL072 U9
+U 1 1 5F5F09BC
+P 5350 2650
+F 0 "U9" H 5350 2283 50  0000 C CNN
+F 1 "TL072" H 5350 2374 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5350 2650 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 5350 2650 50  0001 C CNN
+	1    5350 2650
+	1    0    0    1   
+$EndComp
+$Comp
+L Amplifier_Operational:TL072 U9
+U 2 1 5F5F1892
+P 5750 6450
+F 0 "U9" H 5750 6817 50  0000 C CNN
+F 1 "TL072" H 5750 6726 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5750 6450 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 5750 6450 50  0001 C CNN
+	2    5750 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:TL072 U9
+U 3 1 5F5F36A1
+P 2225 6125
+F 0 "U9" H 2183 6171 50  0000 L CNN
+F 1 "TL072" H 2183 6080 50  0000 L CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2225 6125 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 2225 6125 50  0001 C CNN
+	3    2225 6125
+	1    0    0    -1  
+$EndComp
+NoConn ~ 5450 6350
+NoConn ~ 5450 6550
+NoConn ~ 6050 6450
+$Comp
+L power:+3.3V #PWR0104
+U 1 1 5F635BE8
+P 2125 5725
+F 0 "#PWR0104" H 2125 5575 50  0001 C CNN
+F 1 "+3.3V" H 2140 5898 50  0000 C CNN
+F 2 "" H 2125 5725 50  0001 C CNN
+F 3 "" H 2125 5725 50  0001 C CNN
+	1    2125 5725
+	1    0    0    -1  
+$EndComp
+Connection ~ 4175 2650
+Wire Wire Line
+	4175 2650 4175 3675
+$Comp
+L Device:C C28
+U 1 1 5F68078F
+P 2775 6725
+F 0 "C28" H 2890 6771 50  0000 L CNN
+F 1 "100nF" H 2890 6680 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2813 6575 50  0001 C CNN
+F 3 "~" H 2775 6725 50  0001 C CNN
+	1    2775 6725
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C29
+U 1 1 5F680C35
+P 3275 6750
+F 0 "C29" H 3390 6796 50  0000 L CNN
+F 1 "100nF" H 3390 6705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3313 6600 50  0001 C CNN
+F 3 "~" H 3275 6750 50  0001 C CNN
+	1    3275 6750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2775 6875 2775 7150
+Wire Wire Line
+	3275 6900 3275 7150
+Wire Wire Line
+	2775 6575 2775 6475
+Wire Wire Line
+	2775 6475 2125 6475
+Connection ~ 2125 6475
+Wire Wire Line
+	3275 6600 3275 5775
+Wire Wire Line
+	3275 5775 2125 5775
+Connection ~ 2125 5775
+Wire Wire Line
+	2125 5775 2125 5825
+$Comp
+L power:GNDS #PWR013
+U 1 1 5F7427EC
+P 2775 7150
+F 0 "#PWR013" H 2775 6900 50  0001 C CNN
+F 1 "GNDS" H 2780 6977 50  0000 C CNN
+F 2 "" H 2775 7150 50  0001 C CNN
+F 3 "" H 2775 7150 50  0001 C CNN
+	1    2775 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDS #PWR014
+U 1 1 5F742A6E
+P 3275 7150
+F 0 "#PWR014" H 3275 6900 50  0001 C CNN
+F 1 "GNDS" H 3280 6977 50  0000 C CNN
+F 2 "" H 3275 7150 50  0001 C CNN
+F 3 "" H 3275 7150 50  0001 C CNN
+	1    3275 7150
+	1    0    0    -1  
+$EndComp
+Text HLabel 2125 6700 3    50   Input ~ 0
+NEG3VIN
+Wire Wire Line
+	2125 6475 2125 6700
+$Comp
+L power:GNDS #PWR0101
+U 1 1 5F7531C8
+P 4775 3025
+F 0 "#PWR0101" H 4775 2775 50  0001 C CNN
+F 1 "GNDS" H 4780 2852 50  0000 C CNN
+F 2 "" H 4775 3025 50  0001 C CNN
+F 3 "" H 4775 3025 50  0001 C CNN
+	1    4775 3025
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
