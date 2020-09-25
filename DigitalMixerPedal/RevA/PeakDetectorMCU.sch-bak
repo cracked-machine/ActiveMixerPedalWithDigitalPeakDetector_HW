@@ -93,9 +93,9 @@ Wire Wire Line
 Text Label 7175 3500 0    50   ~ 0
 SYS_SWDIO
 Wire Wire Line
-	6875 2800 7175 2800
+	5775 3400 5475 3400
 Wire Wire Line
-	6875 2900 7175 2900
+	5775 3500 5475 3500
 Wire Wire Line
 	5775 3100 5475 3100
 Wire Wire Line
@@ -103,8 +103,8 @@ Wire Wire Line
 NoConn ~ 5775 2800
 NoConn ~ 5775 2900
 NoConn ~ 5775 3300
-NoConn ~ 5775 3400
-NoConn ~ 5775 3500
+NoConn ~ 6875 2800
+NoConn ~ 6875 2900
 NoConn ~ 5775 3600
 NoConn ~ 5775 3700
 NoConn ~ 6875 3700
@@ -191,9 +191,9 @@ Wire Wire Line
 	3400 4175 3550 4175
 Text Label 3550 4175 0    50   ~ 0
 PEAK_IN_ADC4
-Text Label 7175 2800 0    50   ~ 0
+Text Label 5475 3400 2    50   ~ 0
 PEAK_OUT_PWM1
-Text Label 7175 2900 0    50   ~ 0
+Text Label 5475 3500 2    50   ~ 0
 PEAK_OUT_PWM2
 Text Label 5475 3100 2    50   ~ 0
 PEAK_OUT_PWM3
@@ -515,4 +515,172 @@ F3 "PEAK_OUT_BUF" I R 3400 2050 50
 $EndSheet
 NoConn ~ 6875 3000
 NoConn ~ 6875 3100
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5F72C4BC
+P 8775 5325
+AR Path="/5F6E135D/5F72C4BC" Ref="TP?"  Part="1" 
+AR Path="/5F6E91E5/5F72C4BC" Ref="TP?"  Part="1" 
+AR Path="/5F6EDB29/5F72C4BC" Ref="TP?"  Part="1" 
+AR Path="/5F6F225F/5F72C4BC" Ref="TP?"  Part="1" 
+AR Path="/5F74C2DC/5F72C4BC" Ref="TP?"  Part="1" 
+AR Path="/5F7234CD/5F72C4BC" Ref="TP3"  Part="1" 
+F 0 "TP3" V 8775 5550 50  0000 L CNN
+F 1 "TestPoint" H 8833 5352 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 8975 5325 50  0001 C CNN
+F 3 "~" H 8975 5325 50  0001 C CNN
+	1    8775 5325
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8775 5325 9075 5325
+Text Label 9075 5325 0    50   ~ 0
+PEAK_IN_ADC1
+Text Label 9075 5425 0    50   ~ 0
+PEAK_IN_ADC2
+Text Label 9075 5525 0    50   ~ 0
+PEAK_IN_ADC3
+Text Label 9075 5625 0    50   ~ 0
+PEAK_IN_ADC4
+Text Label 9075 6025 0    50   ~ 0
+PEAK_OUT_PWM1
+Text Label 9075 6125 0    50   ~ 0
+PEAK_OUT_PWM2
+Text Label 9075 5825 0    50   ~ 0
+PEAK_OUT_PWM3
+Text Label 9075 5925 0    50   ~ 0
+PEAK_OUT_PWM4
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5F7373A3
+P 8775 5425
+AR Path="/5F6E135D/5F7373A3" Ref="TP?"  Part="1" 
+AR Path="/5F6E91E5/5F7373A3" Ref="TP?"  Part="1" 
+AR Path="/5F6EDB29/5F7373A3" Ref="TP?"  Part="1" 
+AR Path="/5F6F225F/5F7373A3" Ref="TP?"  Part="1" 
+AR Path="/5F74C2DC/5F7373A3" Ref="TP?"  Part="1" 
+AR Path="/5F7234CD/5F7373A3" Ref="TP5"  Part="1" 
+F 0 "TP5" V 8775 5650 50  0000 L CNN
+F 1 "TestPoint" H 8833 5452 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 8975 5425 50  0001 C CNN
+F 3 "~" H 8975 5425 50  0001 C CNN
+	1    8775 5425
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8775 5425 9075 5425
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5F73915F
+P 8775 5525
+AR Path="/5F6E135D/5F73915F" Ref="TP?"  Part="1" 
+AR Path="/5F6E91E5/5F73915F" Ref="TP?"  Part="1" 
+AR Path="/5F6EDB29/5F73915F" Ref="TP?"  Part="1" 
+AR Path="/5F6F225F/5F73915F" Ref="TP?"  Part="1" 
+AR Path="/5F74C2DC/5F73915F" Ref="TP?"  Part="1" 
+AR Path="/5F7234CD/5F73915F" Ref="TP7"  Part="1" 
+F 0 "TP7" V 8775 5750 50  0000 L CNN
+F 1 "TestPoint" H 8833 5552 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 8975 5525 50  0001 C CNN
+F 3 "~" H 8975 5525 50  0001 C CNN
+	1    8775 5525
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8775 5525 9075 5525
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5F73AF24
+P 8775 5625
+AR Path="/5F6E135D/5F73AF24" Ref="TP?"  Part="1" 
+AR Path="/5F6E91E5/5F73AF24" Ref="TP?"  Part="1" 
+AR Path="/5F6EDB29/5F73AF24" Ref="TP?"  Part="1" 
+AR Path="/5F6F225F/5F73AF24" Ref="TP?"  Part="1" 
+AR Path="/5F74C2DC/5F73AF24" Ref="TP?"  Part="1" 
+AR Path="/5F7234CD/5F73AF24" Ref="TP9"  Part="1" 
+F 0 "TP9" V 8775 5850 50  0000 L CNN
+F 1 "TestPoint" H 8833 5652 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 8975 5625 50  0001 C CNN
+F 3 "~" H 8975 5625 50  0001 C CNN
+	1    8775 5625
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8775 5625 9075 5625
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5F73CE99
+P 8775 5825
+AR Path="/5F6E135D/5F73CE99" Ref="TP?"  Part="1" 
+AR Path="/5F6E91E5/5F73CE99" Ref="TP?"  Part="1" 
+AR Path="/5F6EDB29/5F73CE99" Ref="TP?"  Part="1" 
+AR Path="/5F6F225F/5F73CE99" Ref="TP?"  Part="1" 
+AR Path="/5F74C2DC/5F73CE99" Ref="TP?"  Part="1" 
+AR Path="/5F7234CD/5F73CE99" Ref="TP11"  Part="1" 
+F 0 "TP11" V 8775 6050 50  0000 L CNN
+F 1 "TestPoint" H 8833 5852 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 8975 5825 50  0001 C CNN
+F 3 "~" H 8975 5825 50  0001 C CNN
+	1    8775 5825
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8775 5825 9075 5825
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5F73EF85
+P 8775 5925
+AR Path="/5F6E135D/5F73EF85" Ref="TP?"  Part="1" 
+AR Path="/5F6E91E5/5F73EF85" Ref="TP?"  Part="1" 
+AR Path="/5F6EDB29/5F73EF85" Ref="TP?"  Part="1" 
+AR Path="/5F6F225F/5F73EF85" Ref="TP?"  Part="1" 
+AR Path="/5F74C2DC/5F73EF85" Ref="TP?"  Part="1" 
+AR Path="/5F7234CD/5F73EF85" Ref="TP12"  Part="1" 
+F 0 "TP12" V 8775 6150 50  0000 L CNN
+F 1 "TestPoint" H 8833 5952 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 8975 5925 50  0001 C CNN
+F 3 "~" H 8975 5925 50  0001 C CNN
+	1    8775 5925
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8775 5925 9075 5925
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5F74115F
+P 8775 6025
+AR Path="/5F6E135D/5F74115F" Ref="TP?"  Part="1" 
+AR Path="/5F6E91E5/5F74115F" Ref="TP?"  Part="1" 
+AR Path="/5F6EDB29/5F74115F" Ref="TP?"  Part="1" 
+AR Path="/5F6F225F/5F74115F" Ref="TP?"  Part="1" 
+AR Path="/5F74C2DC/5F74115F" Ref="TP?"  Part="1" 
+AR Path="/5F7234CD/5F74115F" Ref="TP13"  Part="1" 
+F 0 "TP13" V 8775 6250 50  0000 L CNN
+F 1 "TestPoint" H 8833 6052 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 8975 6025 50  0001 C CNN
+F 3 "~" H 8975 6025 50  0001 C CNN
+	1    8775 6025
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8775 6025 9075 6025
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5F7433B2
+P 8775 6125
+AR Path="/5F6E135D/5F7433B2" Ref="TP?"  Part="1" 
+AR Path="/5F6E91E5/5F7433B2" Ref="TP?"  Part="1" 
+AR Path="/5F6EDB29/5F7433B2" Ref="TP?"  Part="1" 
+AR Path="/5F6F225F/5F7433B2" Ref="TP?"  Part="1" 
+AR Path="/5F74C2DC/5F7433B2" Ref="TP?"  Part="1" 
+AR Path="/5F7234CD/5F7433B2" Ref="TP14"  Part="1" 
+F 0 "TP14" V 8775 6350 50  0000 L CNN
+F 1 "TestPoint" H 8833 6152 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 8975 6125 50  0001 C CNN
+F 3 "~" H 8975 6125 50  0001 C CNN
+	1    8775 6125
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8775 6125 9075 6125
 $EndSCHEMATC

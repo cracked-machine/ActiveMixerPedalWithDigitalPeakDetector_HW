@@ -196,7 +196,7 @@ Connection ~ 4100 3125
 Wire Wire Line
 	4100 3125 3600 3125
 Wire Wire Line
-	7325 2425 8675 2425
+	7325 2425 7925 2425
 $Comp
 L Regulator_Linear:MCP1703A-3302_SOT223 U2
 U 1 1 5F88AFD5
@@ -208,4 +208,26 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20005122B.pdf" H 4825 2375 
 	1    4825 2425
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5F7288CE
+P 7925 2125
+AR Path="/5F6E135D/5F7288CE" Ref="TP?"  Part="1" 
+AR Path="/5F6E91E5/5F7288CE" Ref="TP?"  Part="1" 
+AR Path="/5F6EDB29/5F7288CE" Ref="TP?"  Part="1" 
+AR Path="/5F6F225F/5F7288CE" Ref="TP?"  Part="1" 
+AR Path="/5F74C2DC/5F7288CE" Ref="TP?"  Part="1" 
+AR Path="/5F3902BC/5F7288CE" Ref="TP1"  Part="1" 
+F 0 "TP1" H 7983 2197 50  0000 L CNN
+F 1 "TestPoint" H 7983 2152 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 8125 2125 50  0001 C CNN
+F 3 "~" H 8125 2125 50  0001 C CNN
+	1    7925 2125
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7925 2125 7925 2425
+Connection ~ 7925 2425
+Wire Wire Line
+	7925 2425 8675 2425
 $EndSCHEMATC
