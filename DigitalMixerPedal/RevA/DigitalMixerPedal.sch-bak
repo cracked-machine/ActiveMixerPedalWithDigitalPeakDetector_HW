@@ -115,8 +115,6 @@ Connection ~ 9850 3425
 Wire Wire Line
 	9850 3425 9850 3900
 Wire Wire Line
-	1550 1025 1575 1025
-Wire Wire Line
 	1950 1025 1950 1125
 Wire Wire Line
 	1550 1125 1950 1125
@@ -138,8 +136,6 @@ Wire Wire Line
 Wire Wire Line
 	1550 2700 1950 2700
 Connection ~ 1950 2700
-Wire Wire Line
-	1550 3975 1575 3975
 Wire Wire Line
 	1950 3975 1950 4075
 Wire Wire Line
@@ -341,84 +337,6 @@ F 3 "" H 5575 6950 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1950 2700 1950 2900
-$Comp
-L Device:R R?
-U 1 1 5F626ED9
-P 1725 1025
-AR Path="/5F3F1F31/5F626ED9" Ref="R?"  Part="1" 
-AR Path="/5F512144/5F626ED9" Ref="R?"  Part="1" 
-AR Path="/5F515E89/5F626ED9" Ref="R?"  Part="1" 
-AR Path="/5F519B24/5F626ED9" Ref="R?"  Part="1" 
-AR Path="/5F41651F/5F626ED9" Ref="R?"  Part="1" 
-AR Path="/5F626ED9" Ref="R31"  Part="1" 
-F 0 "R31" V 1725 1475 50  0000 C CNN
-F 1 "100R" V 1800 1475 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1655 1025 50  0001 C CNN
-F 3 "~" H 1725 1025 50  0001 C CNN
-	1    1725 1025
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	1875 1025 1950 1025
-Wire Wire Line
-	1550 2500 1575 2500
-$Comp
-L Device:R R?
-U 1 1 5F627E07
-P 1725 2500
-AR Path="/5F3F1F31/5F627E07" Ref="R?"  Part="1" 
-AR Path="/5F512144/5F627E07" Ref="R?"  Part="1" 
-AR Path="/5F515E89/5F627E07" Ref="R?"  Part="1" 
-AR Path="/5F519B24/5F627E07" Ref="R?"  Part="1" 
-AR Path="/5F41651F/5F627E07" Ref="R?"  Part="1" 
-AR Path="/5F627E07" Ref="R32"  Part="1" 
-F 0 "R32" V 1725 2925 50  0000 C CNN
-F 1 "100R" V 1800 2925 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1655 2500 50  0001 C CNN
-F 3 "~" H 1725 2500 50  0001 C CNN
-	1    1725 2500
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	1875 2500 1950 2500
-$Comp
-L Device:R R?
-U 1 1 5F62815E
-P 1725 3975
-AR Path="/5F3F1F31/5F62815E" Ref="R?"  Part="1" 
-AR Path="/5F512144/5F62815E" Ref="R?"  Part="1" 
-AR Path="/5F515E89/5F62815E" Ref="R?"  Part="1" 
-AR Path="/5F519B24/5F62815E" Ref="R?"  Part="1" 
-AR Path="/5F41651F/5F62815E" Ref="R?"  Part="1" 
-AR Path="/5F62815E" Ref="R33"  Part="1" 
-F 0 "R33" V 1725 4425 50  0000 C CNN
-F 1 "100R" V 1800 4425 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1655 3975 50  0001 C CNN
-F 3 "~" H 1725 3975 50  0001 C CNN
-	1    1725 3975
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	1875 3975 1950 3975
-$Comp
-L Device:R R?
-U 1 1 5F628BFA
-P 1700 5500
-AR Path="/5F3F1F31/5F628BFA" Ref="R?"  Part="1" 
-AR Path="/5F512144/5F628BFA" Ref="R?"  Part="1" 
-AR Path="/5F515E89/5F628BFA" Ref="R?"  Part="1" 
-AR Path="/5F519B24/5F628BFA" Ref="R?"  Part="1" 
-AR Path="/5F41651F/5F628BFA" Ref="R?"  Part="1" 
-AR Path="/5F628BFA" Ref="R29"  Part="1" 
-F 0 "R29" V 1700 5950 50  0000 C CNN
-F 1 "100R" V 1775 5950 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1630 5500 50  0001 C CNN
-F 3 "~" H 1700 5500 50  0001 C CNN
-	1    1700 5500
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	1850 5500 1950 5500
 $Sheet
 S 3525 6900 1450 500 
 U 5F3902BC
@@ -693,4 +611,12 @@ Wire Wire Line
 Connection ~ 5275 7150
 Wire Wire Line
 	5275 7150 5575 7150
+Wire Wire Line
+	1550 1025 1950 1025
+Wire Wire Line
+	1550 2500 1950 2500
+Wire Wire Line
+	1550 3975 1950 3975
+Wire Wire Line
+	1550 5500 1950 5500
 $EndSCHEMATC

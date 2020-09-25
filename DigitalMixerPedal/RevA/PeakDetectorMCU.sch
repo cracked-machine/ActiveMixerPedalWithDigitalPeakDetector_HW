@@ -93,20 +93,18 @@ Wire Wire Line
 Text Label 7175 3500 0    50   ~ 0
 SYS_SWDIO
 Wire Wire Line
-	6875 2800 7175 2800
+	5775 3400 5475 3400
 Wire Wire Line
-	6875 2900 7175 2900
+	5775 3500 5475 3500
 Wire Wire Line
-	6875 3000 7175 3000
+	5775 3100 5475 3100
 Wire Wire Line
-	6875 3100 7175 3100
+	5775 3200 5475 3200
 NoConn ~ 5775 2800
 NoConn ~ 5775 2900
-NoConn ~ 5775 3100
-NoConn ~ 5775 3200
 NoConn ~ 5775 3300
-NoConn ~ 5775 3400
-NoConn ~ 5775 3500
+NoConn ~ 6875 2800
+NoConn ~ 6875 2900
 NoConn ~ 5775 3600
 NoConn ~ 5775 3700
 NoConn ~ 6875 3700
@@ -193,13 +191,13 @@ Wire Wire Line
 	3400 4175 3550 4175
 Text Label 3550 4175 0    50   ~ 0
 PEAK_IN_ADC4
-Text Label 7175 2800 0    50   ~ 0
+Text Label 5475 3400 2    50   ~ 0
 PEAK_OUT_PWM1
-Text Label 7175 2900 0    50   ~ 0
+Text Label 5475 3500 2    50   ~ 0
 PEAK_OUT_PWM2
-Text Label 7175 3000 0    50   ~ 0
+Text Label 5475 3100 2    50   ~ 0
 PEAK_OUT_PWM3
-Text Label 7175 3100 0    50   ~ 0
+Text Label 5475 3200 2    50   ~ 0
 PEAK_OUT_PWM4
 Wire Wire Line
 	4975 6575 4200 6575
@@ -249,7 +247,7 @@ U 1 1 5F738503
 P 5175 6575
 F 0 "J7" H 5255 6617 50  0000 L CNN
 F 1 "Conn_01x05" H 5255 6526 50  0000 L CNN
-F 2 "" H 5175 6575 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 5175 6575 50  0001 C CNN
 F 3 "~" H 5175 6575 50  0001 C CNN
 	1    5175 6575
 	1    0    0    -1  
@@ -515,4 +513,6 @@ F1 "InputBufferMCU.sch" 50
 F2 "PEAK_IN_BUF" I L 2125 2050 50 
 F3 "PEAK_OUT_BUF" I R 3400 2050 50 
 $EndSheet
+NoConn ~ 6875 3000
+NoConn ~ 6875 3100
 $EndSCHEMATC
