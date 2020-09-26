@@ -1,4 +1,4 @@
-## DigitalMixerPedal
+## Active 4-way mixer pedal with digital peak detector
 
 ### System Overview
 
