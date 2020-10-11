@@ -1,0 +1,655 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 17
+Title ""
+Date ""
+Rev "A"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MonoJack2Switch:MonoJack2Switch J6
+U 1 1 5F3395F3
+P 10700 3275
+F 0 "J6" H 10795 3650 50  0000 C CNN
+F 1 "MonoJack2Switch" H 10795 3559 50  0000 C CNN
+F 2 "NeutrikNRJ:NRJxHx" H 10700 3325 50  0001 C CNN
+F 3 "https://www.neutrik.com/en/product/nrj6hm-1-pre" H 10700 3325 50  0001 C CNN
+	1    10700 3275
+	-1   0    0    -1  
+$EndComp
+$Comp
+L MonoJack2Switch:MonoJack2Switch J1
+U 1 1 5F366B64
+P 1100 1075
+F 0 "J1" H 950 1425 50  0000 R CNN
+F 1 "MonoJack2Switch" H 1425 1350 50  0000 R CNN
+F 2 "NeutrikNRJ:NRJxHx" H 1100 1125 50  0001 C CNN
+F 3 "https://www.neutrik.com/en/product/nrj6hm-1-pre" H 1100 1125 50  0001 C CNN
+	1    1100 1075
+	1    0    0    -1  
+$EndComp
+$Comp
+L MonoJack2Switch:MonoJack2Switch J2
+U 1 1 5F369E69
+P 1100 2550
+F 0 "J2" H 975 2900 50  0000 R CNN
+F 1 "MonoJack2Switch" H 1425 2825 50  0000 R CNN
+F 2 "NeutrikNRJ:NRJxHx" H 1100 2600 50  0001 C CNN
+F 3 "https://www.neutrik.com/en/product/nrj6hm-1-pre" H 1100 2600 50  0001 C CNN
+	1    1100 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L MonoJack2Switch:MonoJack2Switch J3
+U 1 1 5F36BD50
+P 1100 4025
+F 0 "J3" H 950 4375 50  0000 R CNN
+F 1 "MonoJack2Switch" H 1425 4300 50  0000 R CNN
+F 2 "NeutrikNRJ:NRJxHx" H 1100 4075 50  0001 C CNN
+F 3 "https://www.neutrik.com/en/product/nrj6hm-1-pre" H 1100 4075 50  0001 C CNN
+	1    1100 4025
+	1    0    0    -1  
+$EndComp
+$Comp
+L MonoJack2Switch:MonoJack2Switch J4
+U 1 1 5F36CF2A
+P 1100 5550
+F 0 "J4" H 975 5925 50  0000 R CNN
+F 1 "MonoJack2Switch" H 1425 5825 50  0000 R CNN
+F 2 "NeutrikNRJ:NRJxHx" H 1100 5600 50  0001 C CNN
+F 3 "https://www.neutrik.com/en/product/nrj6hm-1-pre" H 1100 5600 50  0001 C CNN
+	1    1100 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Barrel_Jack J5
+U 1 1 5F3909CC
+P 2525 7250
+F 0 "J5" H 2296 7208 50  0000 R CNN
+F 1 "Barrel_Jack" H 2296 7299 50  0000 R CNN
+F 2 "Connector_BarrelJack:BarrelJack_Horizontal" H 2575 7210 50  0001 C CNN
+F 3 "~" H 2575 7210 50  0001 C CNN
+	1    2525 7250
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	2825 7150 3525 7150
+Wire Wire Line
+	4975 7150 5275 7150
+Wire Wire Line
+	5575 7150 5575 6950
+Wire Wire Line
+	2825 7350 3075 7350
+Wire Wire Line
+	3075 7350 3075 7450
+$Comp
+L power:GNDS #PWR01
+U 1 1 5F3A18C5
+P 3075 7450
+F 0 "#PWR01" H 3075 7200 50  0001 C CNN
+F 1 "GNDS" H 3080 7277 50  0000 C CNN
+F 2 "" H 3075 7450 50  0001 C CNN
+F 3 "" H 3075 7450 50  0001 C CNN
+	1    3075 7450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10250 3225 9850 3225
+Wire Wire Line
+	9850 3225 9850 3325
+Wire Wire Line
+	10250 3325 9850 3325
+Connection ~ 9850 3325
+Wire Wire Line
+	9850 3325 9850 3425
+Wire Wire Line
+	10250 3425 9850 3425
+Connection ~ 9850 3425
+Wire Wire Line
+	9850 3425 9850 3900
+Wire Wire Line
+	1950 1025 1950 1125
+Wire Wire Line
+	1550 1125 1950 1125
+Connection ~ 1950 1125
+Wire Wire Line
+	1950 1125 1950 1225
+Wire Wire Line
+	1550 1225 1950 1225
+Connection ~ 1950 1225
+Wire Wire Line
+	1950 1225 1950 1425
+Wire Wire Line
+	1950 2500 1950 2600
+Wire Wire Line
+	1550 2600 1950 2600
+Connection ~ 1950 2600
+Wire Wire Line
+	1950 2600 1950 2700
+Wire Wire Line
+	1550 2700 1950 2700
+Connection ~ 1950 2700
+Wire Wire Line
+	1950 3975 1950 4075
+Wire Wire Line
+	1550 4075 1950 4075
+Connection ~ 1950 4075
+Wire Wire Line
+	1950 4075 1950 4175
+Wire Wire Line
+	1550 4175 1950 4175
+Connection ~ 1950 4175
+Wire Wire Line
+	1950 4175 1950 4375
+Wire Wire Line
+	1950 5500 1950 5600
+Wire Wire Line
+	1550 5600 1950 5600
+Connection ~ 1950 5600
+Wire Wire Line
+	1950 5600 1950 5700
+Wire Wire Line
+	1550 5700 1950 5700
+Connection ~ 1950 5700
+Wire Wire Line
+	1950 5700 1950 5900
+Wire Wire Line
+	3075 925  1550 925 
+Wire Wire Line
+	3075 2400 1550 2400
+Wire Wire Line
+	3100 3875 1550 3875
+Wire Wire Line
+	3100 5400 1550 5400
+$Sheet
+S 7950 2875 1400 500 
+U 5F44DB1C
+F0 "OutputStage" 50
+F1 "OutputStage.sch" 50
+F2 "SIGNAL_INPUT" I L 7950 3125 50 
+F3 "SIGNAL_OUTPUT" I R 9350 3125 50 
+F4 "NEG3VIN" I L 7950 3275 50 
+$EndSheet
+Wire Wire Line
+	7950 3125 7050 3125
+Wire Wire Line
+	9350 3125 10250 3125
+Connection ~ 7050 3125
+$Comp
+L Device:R R?
+U 1 1 5F54FABA
+P 6125 925
+AR Path="/5F3F1F31/5F54FABA" Ref="R?"  Part="1" 
+AR Path="/5F512144/5F54FABA" Ref="R?"  Part="1" 
+AR Path="/5F515E89/5F54FABA" Ref="R?"  Part="1" 
+AR Path="/5F519B24/5F54FABA" Ref="R?"  Part="1" 
+AR Path="/5F41651F/5F54FABA" Ref="R?"  Part="1" 
+AR Path="/5F54FABA" Ref="R1"  Part="1" 
+F 0 "R1" V 5918 925 50  0000 C CNN
+F 1 "10K" V 6009 925 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6055 925 50  0001 C CNN
+F 3 "~" H 6125 925 50  0001 C CNN
+	1    6125 925 
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6275 925  7050 925 
+$Sheet
+S 3075 750  1425 475 
+U 5F5A4754
+F0 "InputBuffer1" 50
+F1 "InputBufferAndGain.sch" 50
+F2 "SIGNAL_INPUT" I L 3075 925 50 
+F3 "SIGNAL_OUTPUT" I R 4500 925 50 
+F4 "NEG3VIN" I L 3075 1100 50 
+$EndSheet
+Wire Wire Line
+	5350 1450 5350 925 
+Wire Wire Line
+	5350 925  4500 925 
+Wire Wire Line
+	5350 925  5975 925 
+Connection ~ 5350 925 
+Wire Wire Line
+	7050 925  7050 2400
+$Comp
+L Device:R R?
+U 1 1 5F5B9EE8
+P 6125 2400
+AR Path="/5F3F1F31/5F5B9EE8" Ref="R?"  Part="1" 
+AR Path="/5F512144/5F5B9EE8" Ref="R?"  Part="1" 
+AR Path="/5F515E89/5F5B9EE8" Ref="R?"  Part="1" 
+AR Path="/5F519B24/5F5B9EE8" Ref="R?"  Part="1" 
+AR Path="/5F41651F/5F5B9EE8" Ref="R?"  Part="1" 
+AR Path="/5F5B9EE8" Ref="R2"  Part="1" 
+F 0 "R2" V 5918 2400 50  0000 C CNN
+F 1 "10K" V 6009 2400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6055 2400 50  0001 C CNN
+F 3 "~" H 6125 2400 50  0001 C CNN
+	1    6125 2400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6275 2400 7050 2400
+$Sheet
+S 3075 2225 1425 475 
+U 5F5B9EED
+F0 "InputBuffer2" 50
+F1 "InputBufferAndGain.sch" 50
+F2 "SIGNAL_INPUT" I L 3075 2400 50 
+F3 "SIGNAL_OUTPUT" I R 4500 2400 50 
+F4 "NEG3VIN" I L 3075 2550 50 
+$EndSheet
+Wire Wire Line
+	5350 2925 5350 2400
+Wire Wire Line
+	5350 2400 4500 2400
+Wire Wire Line
+	5350 2400 5975 2400
+Connection ~ 5350 2400
+$Comp
+L Device:R R?
+U 1 1 5F5BB127
+P 6150 3875
+AR Path="/5F3F1F31/5F5BB127" Ref="R?"  Part="1" 
+AR Path="/5F512144/5F5BB127" Ref="R?"  Part="1" 
+AR Path="/5F515E89/5F5BB127" Ref="R?"  Part="1" 
+AR Path="/5F519B24/5F5BB127" Ref="R?"  Part="1" 
+AR Path="/5F41651F/5F5BB127" Ref="R?"  Part="1" 
+AR Path="/5F5BB127" Ref="R3"  Part="1" 
+F 0 "R3" V 5943 3875 50  0000 C CNN
+F 1 "10K" V 6034 3875 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6080 3875 50  0001 C CNN
+F 3 "~" H 6150 3875 50  0001 C CNN
+	1    6150 3875
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6300 3875 7050 3875
+$Sheet
+S 3100 3700 1425 525 
+U 5F5BB12C
+F0 "InputBuffer3" 50
+F1 "InputBufferAndGain.sch" 50
+F2 "SIGNAL_INPUT" I L 3100 3875 50 
+F3 "SIGNAL_OUTPUT" I R 4525 3875 50 
+F4 "NEG3VIN" I L 3100 4050 50 
+$EndSheet
+Wire Wire Line
+	5375 4400 5375 3875
+Wire Wire Line
+	5375 3875 4525 3875
+Wire Wire Line
+	5375 3875 6000 3875
+Connection ~ 5375 3875
+$Comp
+L Device:R R?
+U 1 1 5F5BCC20
+P 6150 5400
+AR Path="/5F3F1F31/5F5BCC20" Ref="R?"  Part="1" 
+AR Path="/5F512144/5F5BCC20" Ref="R?"  Part="1" 
+AR Path="/5F515E89/5F5BCC20" Ref="R?"  Part="1" 
+AR Path="/5F519B24/5F5BCC20" Ref="R?"  Part="1" 
+AR Path="/5F41651F/5F5BCC20" Ref="R?"  Part="1" 
+AR Path="/5F5BCC20" Ref="R4"  Part="1" 
+F 0 "R4" V 5943 5400 50  0000 C CNN
+F 1 "10K" V 6034 5400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6080 5400 50  0001 C CNN
+F 3 "~" H 6150 5400 50  0001 C CNN
+	1    6150 5400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6300 5400 7050 5400
+$Sheet
+S 3100 5225 1425 500 
+U 5F5BCC25
+F0 "InputBuffer4" 50
+F1 "InputBufferAndGain.sch" 50
+F2 "SIGNAL_INPUT" I L 3100 5400 50 
+F3 "SIGNAL_OUTPUT" I R 4525 5400 50 
+F4 "NEG3VIN" I L 3100 5550 50 
+$EndSheet
+Wire Wire Line
+	5375 5925 5375 5400
+Wire Wire Line
+	5375 5400 4525 5400
+Wire Wire Line
+	5375 5400 6000 5400
+Connection ~ 5375 5400
+$Comp
+L power:+3.3V #PWR0102
+U 1 1 5F5CBB3E
+P 5575 6950
+F 0 "#PWR0102" H 5575 6800 50  0001 C CNN
+F 1 "+3.3V" H 5590 7123 50  0000 C CNN
+F 2 "" H 5575 6950 50  0001 C CNN
+F 3 "" H 5575 6950 50  0001 C CNN
+	1    5575 6950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1950 2700 1950 2900
+$Sheet
+S 3525 6900 1450 500 
+U 5F3902BC
+F0 "PowerSupply" 50
+F1 "Pos3V3_PSU.sch" 50
+F2 "+9V_IN" I L 3525 7150 50 
+F3 "VOUT" I R 4975 7150 50 
+$EndSheet
+$Comp
+L power:GNDS #PWR012
+U 1 1 5F6C5892
+P 9850 3900
+F 0 "#PWR012" H 9850 3650 50  0001 C CNN
+F 1 "GNDS" H 9855 3727 50  0000 C CNN
+F 2 "" H 9850 3900 50  0001 C CNN
+F 3 "" H 9850 3900 50  0001 C CNN
+	1    9850 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDS #PWR02
+U 1 1 5F6C93A8
+P 1950 1425
+F 0 "#PWR02" H 1950 1175 50  0001 C CNN
+F 1 "GNDS" H 1955 1252 50  0000 C CNN
+F 2 "" H 1950 1425 50  0001 C CNN
+F 3 "" H 1950 1425 50  0001 C CNN
+	1    1950 1425
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDS #PWR03
+U 1 1 5F6CADDE
+P 1950 2900
+F 0 "#PWR03" H 1950 2650 50  0001 C CNN
+F 1 "GNDS" H 1955 2727 50  0000 C CNN
+F 2 "" H 1950 2900 50  0001 C CNN
+F 3 "" H 1950 2900 50  0001 C CNN
+	1    1950 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDS #PWR04
+U 1 1 5F6CC89D
+P 1950 4375
+F 0 "#PWR04" H 1950 4125 50  0001 C CNN
+F 1 "GNDS" H 1955 4202 50  0000 C CNN
+F 2 "" H 1950 4375 50  0001 C CNN
+F 3 "" H 1950 4375 50  0001 C CNN
+	1    1950 4375
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDS #PWR05
+U 1 1 5F6CE38E
+P 1950 5900
+F 0 "#PWR05" H 1950 5650 50  0001 C CNN
+F 1 "GNDS" H 1955 5727 50  0000 C CNN
+F 2 "" H 1950 5900 50  0001 C CNN
+F 3 "" H 1950 5900 50  0001 C CNN
+	1    1950 5900
+	1    0    0    -1  
+$EndComp
+$Sheet
+S 3075 1450 750  325 
+U 5F6E135D
+F0 "NegativeRail1" 50
+F1 "NegativeRail.sch" 50
+F2 "VIN" I L 3075 1700 50 
+F3 "VOUT" I L 3075 1575 50 
+$EndSheet
+Wire Wire Line
+	3075 1575 2925 1575
+Wire Wire Line
+	2925 1575 2925 1100
+Wire Wire Line
+	2925 1100 3075 1100
+Wire Wire Line
+	3075 1700 2725 1700
+Wire Wire Line
+	2725 1700 2725 1500
+$Comp
+L power:+3V3 #PWR06
+U 1 1 5F6E5BA3
+P 2725 1500
+F 0 "#PWR06" H 2725 1350 50  0001 C CNN
+F 1 "+3V3" H 2740 1673 50  0000 C CNN
+F 2 "" H 2725 1500 50  0001 C CNN
+F 3 "" H 2725 1500 50  0001 C CNN
+	1    2725 1500
+	1    0    0    -1  
+$EndComp
+$Sheet
+S 3075 2900 750  325 
+U 5F6E91E5
+F0 "NegativeRail2" 50
+F1 "NegativeRail.sch" 50
+F2 "VIN" I L 3075 3150 50 
+F3 "VOUT" I L 3075 3025 50 
+$EndSheet
+Wire Wire Line
+	3075 3025 2925 3025
+Wire Wire Line
+	2925 3025 2925 2550
+Wire Wire Line
+	3075 3150 2725 3150
+Wire Wire Line
+	2725 3150 2725 2950
+$Comp
+L power:+3V3 #PWR07
+U 1 1 5F6E91EF
+P 2725 2950
+F 0 "#PWR07" H 2725 2800 50  0001 C CNN
+F 1 "+3V3" H 2740 3123 50  0000 C CNN
+F 2 "" H 2725 2950 50  0001 C CNN
+F 3 "" H 2725 2950 50  0001 C CNN
+	1    2725 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3075 2550 2925 2550
+$Sheet
+S 3100 4400 750  325 
+U 5F6EDB29
+F0 "NegativeRail3" 50
+F1 "NegativeRail.sch" 50
+F2 "VIN" I L 3100 4650 50 
+F3 "VOUT" I L 3100 4525 50 
+$EndSheet
+Wire Wire Line
+	3100 4525 2950 4525
+Wire Wire Line
+	2950 4525 2950 4050
+Wire Wire Line
+	3100 4650 2750 4650
+Wire Wire Line
+	2750 4650 2750 4450
+$Comp
+L power:+3V3 #PWR09
+U 1 1 5F6EDB33
+P 2750 4450
+F 0 "#PWR09" H 2750 4300 50  0001 C CNN
+F 1 "+3V3" H 2765 4623 50  0000 C CNN
+F 2 "" H 2750 4450 50  0001 C CNN
+F 3 "" H 2750 4450 50  0001 C CNN
+	1    2750 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 4050 3100 4050
+$Sheet
+S 3100 5900 750  325 
+U 5F6F225F
+F0 "NegativeRail4" 50
+F1 "NegativeRail.sch" 50
+F2 "VIN" I L 3100 6150 50 
+F3 "VOUT" I L 3100 6025 50 
+$EndSheet
+Wire Wire Line
+	3100 6025 2950 6025
+Wire Wire Line
+	2950 6025 2950 5550
+Wire Wire Line
+	3100 6150 2750 6150
+Wire Wire Line
+	2750 6150 2750 5950
+$Comp
+L power:+3V3 #PWR010
+U 1 1 5F6F2269
+P 2750 5950
+F 0 "#PWR010" H 2750 5800 50  0001 C CNN
+F 1 "+3V3" H 2765 6123 50  0000 C CNN
+F 2 "" H 2750 5950 50  0001 C CNN
+F 3 "" H 2750 5950 50  0001 C CNN
+	1    2750 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 5550 3100 5550
+Connection ~ 7050 3875
+Wire Wire Line
+	7050 3875 7050 5400
+Wire Wire Line
+	7050 3125 7050 3875
+Connection ~ 7050 2400
+Wire Wire Line
+	7050 2400 7050 3125
+$Sheet
+S 8875 4600 1000 700 
+U 5F7234CD
+F0 "PeakDetectorMCU" 50
+F1 "PeakDetectorMCU.sch" 50
+F2 "PEAK_IN_BUF1" I L 8875 4725 50 
+F3 "PEAK_IN_BUF2" I L 8875 4875 50 
+F4 "PEAK_IN_BUF3" I L 8875 5025 50 
+F5 "PEAK_IN_BUF4" I L 8875 5175 50 
+$EndSheet
+Wire Wire Line
+	8875 4725 8150 4725
+Text Label 8150 4725 0    50   ~ 0
+PEAK_IN_BUF1
+Wire Wire Line
+	8875 4875 8150 4875
+Text Label 8150 4875 0    50   ~ 0
+PEAK_IN_BUF2
+Wire Wire Line
+	8875 5025 8150 5025
+Text Label 8150 5025 0    50   ~ 0
+PEAK_IN_BUF3
+Wire Wire Line
+	8875 5175 8150 5175
+Text Label 8150 5175 0    50   ~ 0
+PEAK_IN_BUF4
+Text Label 6325 1450 2    50   ~ 0
+PEAK_IN_BUF1
+Wire Wire Line
+	5350 1450 6325 1450
+Text Label 6350 2925 2    50   ~ 0
+PEAK_IN_BUF2
+Wire Wire Line
+	5350 2925 6350 2925
+Text Label 6375 4400 2    50   ~ 0
+PEAK_IN_BUF3
+Wire Wire Line
+	5375 4400 6375 4400
+Text Label 6375 5925 2    50   ~ 0
+PEAK_IN_BUF4
+Wire Wire Line
+	5375 5925 6375 5925
+$Sheet
+S 7950 3625 750  325 
+U 5F74C2DC
+F0 "NegativeRail5" 50
+F1 "NegativeRail.sch" 50
+F2 "VIN" I L 7950 3875 50 
+F3 "VOUT" I L 7950 3750 50 
+$EndSheet
+Wire Wire Line
+	7950 3750 7800 3750
+Wire Wire Line
+	7800 3750 7800 3275
+Wire Wire Line
+	7950 3875 7600 3875
+Wire Wire Line
+	7600 3875 7600 3675
+$Comp
+L power:+3V3 #PWR011
+U 1 1 5F74C2E6
+P 7600 3675
+F 0 "#PWR011" H 7600 3525 50  0001 C CNN
+F 1 "+3V3" H 7615 3848 50  0000 C CNN
+F 2 "" H 7600 3675 50  0001 C CNN
+F 3 "" H 7600 3675 50  0001 C CNN
+	1    7600 3675
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7950 3275 7800 3275
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5F755CB9
+P 5275 7050
+F 0 "#FLG0101" H 5275 7125 50  0001 C CNN
+F 1 "PWR_FLAG" H 5275 7223 50  0000 C CNN
+F 2 "" H 5275 7050 50  0001 C CNN
+F 3 "~" H 5275 7050 50  0001 C CNN
+	1    5275 7050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5275 7050 5275 7150
+Connection ~ 5275 7150
+Wire Wire Line
+	5275 7150 5575 7150
+Wire Wire Line
+	1550 1025 1950 1025
+Wire Wire Line
+	1550 2500 1950 2500
+Wire Wire Line
+	1550 3975 1950 3975
+Wire Wire Line
+	1550 5500 1950 5500
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5F746E1D
+P 8875 6025
+AR Path="/5F6E135D/5F746E1D" Ref="TP?"  Part="1" 
+AR Path="/5F6E91E5/5F746E1D" Ref="TP?"  Part="1" 
+AR Path="/5F6EDB29/5F746E1D" Ref="TP?"  Part="1" 
+AR Path="/5F6F225F/5F746E1D" Ref="TP?"  Part="1" 
+AR Path="/5F74C2DC/5F746E1D" Ref="TP?"  Part="1" 
+AR Path="/5F7234CD/5F746E1D" Ref="TP?"  Part="1" 
+AR Path="/5F746E1D" Ref="TP15"  Part="1" 
+F 0 "TP15" V 8875 6250 50  0000 L CNN
+F 1 "TestPoint" H 8933 6052 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 9075 6025 50  0001 C CNN
+F 3 "~" H 9075 6025 50  0001 C CNN
+	1    8875 6025
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8875 6025 9175 6025
+Wire Wire Line
+	9175 6025 9175 6150
+$Comp
+L power:GNDS #PWR061
+U 1 1 5F74C4A7
+P 9175 6150
+F 0 "#PWR061" H 9175 5900 50  0001 C CNN
+F 1 "GNDS" H 9180 5977 50  0000 C CNN
+F 2 "" H 9175 6150 50  0001 C CNN
+F 3 "" H 9175 6150 50  0001 C CNN
+	1    9175 6150
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

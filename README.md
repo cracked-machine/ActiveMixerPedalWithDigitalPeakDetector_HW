@@ -31,12 +31,15 @@ Related SW project: https://github.com/cracked-machine/DigitalPeakDetector_SW
 ![](ActiveMixerPedalWithDigitalPeakDetector/RevA/docs/schema/svg/PeakDetectorMCU-PeakDetectorMCU.svg)
 
 ## 3D Renderings
-TODO
 
-__PCB 3D Render (top view)__
+__PCB__
 
-![](ActiveMixerPedalWithDigitalPeakDetector/RevC/SOIC/docs/layout/ActiveMixerPedalWithDigitalPeakDetector_Front.png)
+![](ActiveMixerPedalWithDigitalPeakDetector/RevA/docs/layout_3d_render/ActiveMixerPedalWithDigitalPeakDetector_PCB.png)
 
-__PCB 3D Render (bottom view)__
+__Front Panel__
 
-![](ActiveMixerPedalWithDigitalPeakDetector/RevC/SOIC/docs/layout/ActiveMixerPedalWithDigitalPeakDetector_Back.png)
+![](ActiveMixerPedalWithDigitalPeakDetector/RevA/panels/front/docs/layout_3d_render/ActiveMixerPedalWithDigitalPeakDetector_FRONTPANEL.png)
+
+__Back Panel__
+
+![](ActiveMixerPedalWithDigitalPeakDetector/RevA/panels/back/docs/layout_3d_render/ActiveMixerPedalWithDigitalPeakDetector_BACKPANEL.png)
