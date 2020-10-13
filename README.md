@@ -46,5 +46,5 @@ __Back Panel__
 
 __PCB and panel profile__
 
-[](ActiveMixerPedalWithDigitalPeakDetector/RevA/docs/systemdesign/EnclosureInternalVerticalMeasurement.svg)
+![](ActiveMixerPedalWithDigitalPeakDetector/RevA/docs/systemdesign/EnclosureInternalVerticalMeasurement.svg)
 
