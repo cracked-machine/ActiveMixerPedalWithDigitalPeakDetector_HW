@@ -43,3 +43,8 @@ __Front Panel__
 __Back Panel__
 
 ![](ActiveMixerPedalWithDigitalPeakDetector/RevA/panels/back/docs/layout_3d_render/ActiveMixerPedalWithDigitalPeakDetector_BACKPANEL.png)
+
+__PCB and panel profile__
+
+[](ActiveMixerPedalWithDigitalPeakDetector/RevA/docs/systemdesign/EnclosureInternalVerticalMeasurement.svg)
+
