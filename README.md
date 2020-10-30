@@ -67,3 +67,14 @@ __Back Panel__
 __PCB and panel profile__
 
 ![](ActiveMixerPedalWithDigitalPeakDetector/RevA/docs/systemdesign/EnclosureInternalVerticalMeasurement.svg)
+
+## TODO
+
+Some issues with the HW design:
+
+- The PSU uses 3.3V for both MCU and Analog blocks. This is too low for the opamps in the analog blocks and does not allow enough headroom for the signal. This can result in clipping of the signal.
+
+- The charge pumps used by the opamps in the analog blocks (used to create a negative voltage rail) need filtering. The negative voltage rail is noisy (observed on the scope) and a high pitched whine can be heard through the output when plugged into a large amplifier. A simple passive LPF would probably solve this. 
+
+- The output is on the wrong side!
+
