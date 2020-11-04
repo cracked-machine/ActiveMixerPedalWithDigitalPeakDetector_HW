@@ -5,6 +5,7 @@
 - Digital LED peak detector per input channel.
 - Fits in a Hammond 1590BB enclosure (120mm x 95mm).
 
+Required Kicad Hardware library: https://github.com/cracked-machine/KicadLibrary
 Related SW project: https://github.com/cracked-machine/DigitalPeakDetector_SW
 
 ### System Overview
